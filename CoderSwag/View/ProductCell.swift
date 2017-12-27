@@ -16,7 +16,7 @@ class ProductCell: UICollectionViewCell {
     @IBOutlet weak var productPrice: UILabel!
     
     // MARK: Custom Methods
-    func updateViews(category: Category) {
+    func updateViews(product: Product) {
 //        categoryImage.image = UIImage(named: category.imageName)
 //        categoryTitle.text = category.title
     }
