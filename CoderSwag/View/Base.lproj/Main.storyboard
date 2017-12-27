@@ -33,24 +33,36 @@
                                 <rect key="frame" x="0.0" y="70" width="375" height="533"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="153" id="MRX-EX-1Fs">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="153" id="MRX-EX-1Fs" customClass="CategoryCell" customModule="CoderSwag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="153"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MRX-EX-1Fs" id="EP2-DP-kQ9">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="152.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s10-tx-HBm">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="s10-tx-HBm">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="152.5"/>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZj-ta-cGu">
+                                                    <rect key="frame" x="142" y="62.5" width="91" height="28"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="s10-tx-HBm" secondAttribute="trailing" id="4jo-g1-mSu"/>
                                                 <constraint firstItem="s10-tx-HBm" firstAttribute="top" secondItem="EP2-DP-kQ9" secondAttribute="top" id="6iz-FM-Uxe"/>
                                                 <constraint firstAttribute="bottom" secondItem="s10-tx-HBm" secondAttribute="bottom" id="Ky2-f7-JYu"/>
                                                 <constraint firstItem="s10-tx-HBm" firstAttribute="leading" secondItem="EP2-DP-kQ9" secondAttribute="leading" id="NdF-mQ-F1W"/>
+                                                <constraint firstItem="BZj-ta-cGu" firstAttribute="centerX" secondItem="EP2-DP-kQ9" secondAttribute="centerX" id="laZ-8S-LT6"/>
+                                                <constraint firstItem="BZj-ta-cGu" firstAttribute="centerY" secondItem="EP2-DP-kQ9" secondAttribute="centerY" id="mxo-Rj-oZo"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="categoryImage" destination="s10-tx-HBm" id="BGh-Et-Sue"/>
+                                            <outlet property="categoryLabel" destination="BZj-ta-cGu" id="Vua-Wm-xNn"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -67,6 +79,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="CODER SWAG" id="RLT-Pn-2Vr"/>
+                    <connections>
+                        <outlet property="categoryTable" destination="eno-xd-QgS" id="1EL-vJ-8iC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -95,4 +110,7 @@
             <point key="canvasLocation" x="-188" y="133"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="digital" width="1024" height="703"/>
+    </resources>
 </document>
