@@ -15,6 +15,8 @@
 		E0B1662620116E1B00F0DDE1 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B1662520116E1B00F0DDE1 /* CategoryCell.swift */; };
 		E0B1662820116F9D00F0DDE1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B1662720116F9D00F0DDE1 /* Category.swift */; };
 		E0B1662B2011717A00F0DDE1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B1662A2011717A00F0DDE1 /* DataService.swift */; };
+		E0B1662D2011CF4800F0DDE1 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B1662C2011CF4800F0DDE1 /* ProductCell.swift */; };
+		E0B1662F2011D00C00F0DDE1 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B1662E2011D00C00F0DDE1 /* ProductsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E0B1662520116E1B00F0DDE1 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		E0B1662720116F9D00F0DDE1 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		E0B1662A2011717A00F0DDE1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		E0B1662C2011CF4800F0DDE1 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		E0B1662E2011D00C00F0DDE1 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				E0B166122011680300F0DDE1 /* CategoriesViewController.swift */,
+				E0B1662E2011D00C00F0DDE1 /* ProductsViewController.swift */,
 				E0B166102011680300F0DDE1 /* AppDelegate.swift */,
 			);
 			path = Controller;
@@ -83,7 +88,6 @@
 		E0B1662320116DCC00F0DDE1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E0B1662520116E1B00F0DDE1 /* CategoryCell.swift */,
 				E0B1662720116F9D00F0DDE1 /* Category.swift */,
 			);
 			path = Model;
@@ -92,6 +96,8 @@
 		E0B1662420116DD600F0DDE1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E0B1662520116E1B00F0DDE1 /* CategoryCell.swift */,
+				E0B1662C2011CF4800F0DDE1 /* ProductCell.swift */,
 				E0B166142011680300F0DDE1 /* Main.storyboard */,
 			);
 			path = View;
@@ -179,7 +185,9 @@
 			files = (
 				E0B166132011680300F0DDE1 /* CategoriesViewController.swift in Sources */,
 				E0B166112011680300F0DDE1 /* AppDelegate.swift in Sources */,
+				E0B1662F2011D00C00F0DDE1 /* ProductsViewController.swift in Sources */,
 				E0B1662620116E1B00F0DDE1 /* CategoryCell.swift in Sources */,
+				E0B1662D2011CF4800F0DDE1 /* ProductCell.swift in Sources */,
 				E0B1662820116F9D00F0DDE1 /* Category.swift in Sources */,
 				E0B1662B2011717A00F0DDE1 /* DataService.swift in Sources */,
 			);
