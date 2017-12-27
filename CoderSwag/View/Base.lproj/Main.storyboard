@@ -33,7 +33,7 @@
                                 <rect key="frame" x="0.0" y="70" width="375" height="533"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="153" id="MRX-EX-1Fs" customClass="CategoryCell" customModule="CoderSwag" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="153" id="MRX-EX-1Fs" customClass="CategoryCell" customModule="CoderSwag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="153"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MRX-EX-1Fs" id="EP2-DP-kQ9">
@@ -61,7 +61,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="categoryImage" destination="s10-tx-HBm" id="BGh-Et-Sue"/>
-                                            <outlet property="categoryLabel" destination="BZj-ta-cGu" id="Vua-Wm-xNn"/>
+                                            <outlet property="categoryTitle" destination="BZj-ta-cGu" id="Vua-Wm-xNn"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
