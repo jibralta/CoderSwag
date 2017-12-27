@@ -19,11 +19,12 @@ class DataService { // This is a singleton.  Only want one copy of a data servic
         Category(title: "DIGITAL", imageName: "digital.png")
     ]
     
-    private let hats = [
-        Product(title: "Devslopes Logo Graphic Beanie", imageName: "hat01.png", price: "$18"),
-        Product(title: "Devslopes Logo Hat Black", imageName: "hat02.png", price: "$20"),
-        Product(title: "Devslopes Logo Hat White", imageName: "hat03.png", price: "$20"),
-        Product(title: "Devslopes Logo Hat Snapback", imageName: "hat04.png", price: "$20")
+    private let shirts = [
+        Product(title: "Devslopes Logo Shirt Black", imageName: "shirt01.png", price: "$18"),
+        Product(title: "Devslopes Badge Shirt Light Grey", imageName: "shirt02.png", price: "$19"),
+        Product(title: "Devslopes Logo Shirt Red", imageName: "shirt03.png", price: "$18"),
+        Product(title: "Hustle Delegate Grey", imageName: "shirt04.png", price: "$19"),
+        Product(title: "Kickflip Studios Black", imageName: "shirt05.png", price: "$18")
     ]
     
     private let hoodies = [
@@ -33,12 +34,14 @@ class DataService { // This is a singleton.  Only want one copy of a data servic
         Product(title: "Devslopes Hoodie Black", imageName: "hoodie04.png", price: "$32")
     ]
     
-    private let shirts = [
-        Product(title: "Devslopes Logo Shirt Black", imageName: "shirt01.png", price: "$18"),
-        Product(title: "Devslopes Badge Shirt Light Grey", imageName: "shirt02.png", price: "$18"),
-        Product(title: "Devslopes Logo Shirt Black", imageName: "shirt03.png", price: "$18"),
-        Product(title: "Devslopes Logo Shirt Black", imageName: "shirt04.png", price: "$18")
+    private let hats = [
+        Product(title: "Devslopes Logo Graphic Beanie", imageName: "hat01.png", price: "$18"),
+        Product(title: "Devslopes Logo Hat Black", imageName: "hat02.png", price: "$20"),
+        Product(title: "Devslopes Logo Hat White", imageName: "hat03.png", price: "$20"),
+        Product(title: "Devslopes Logo Hat Snapback", imageName: "hat04.png", price: "$20")
     ]
+    
+    private let digitalGoods = [Product]()
     
     // asks server to get the categories
     func getCategories() -> [Category] {
@@ -55,6 +58,25 @@ class DataService { // This is a singleton.  Only want one copy of a data servic
     
     func getShirts() -> [Product] {
         return shirts
+    }
+    
+    func getDigitalGoods() -> [Product]{
+        return digitalGoods
+    }
+    
+    func getProducts(forCategoryTItle title: String) -> [Product] {
+        switch title {
+        case "SHIRTS":
+            return getShirts()
+        case "HOODIES":
+            return gethoodies()
+        case "HATS":
+            return gethats()
+        case "DIGITAL":
+            return getDigitalGoods()
+        default:
+            return getShirts()
+        }
     }
 
 }
