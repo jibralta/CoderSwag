@@ -64,7 +64,7 @@ class DataService { // This is a singleton.  Only want one copy of a data servic
         return digitalGoods
     }
     
-    func getProducts(forCategoryTItle title: String) -> [Product] {
+    func getProducts(forCategoryTitle title: String) -> [Product] {
         switch title {
         case "SHIRTS":
             return getShirts()

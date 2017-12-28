@@ -85,7 +85,7 @@
                     <navigationItem key="navigationItem" title="CODER SWAG" id="RLT-Pn-2Vr"/>
                     <connections>
                         <outlet property="categoryTable" destination="eno-xd-QgS" id="1EL-vJ-8iC"/>
-                        <segue destination="vNr-yR-NoF" kind="show" id="VTS-BA-ulq"/>
+                        <segue destination="vNr-yR-NoF" kind="show" identifier="CategoryVCtoProductVC" id="VTS-BA-ulq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -186,7 +186,7 @@
                         <viewLayoutGuide key="safeArea" id="742-jB-Eep"/>
                     </view>
                     <connections>
-                        <outlet property="productTable" destination="Vd3-yq-nHz" id="GEM-cG-L0W"/>
+                        <outlet property="productCollection" destination="Vd3-yq-nHz" id="GEM-cG-L0W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="blG-pn-la9" userLabel="First Responder" sceneMemberID="firstResponder"/>
