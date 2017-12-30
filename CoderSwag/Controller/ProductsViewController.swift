@@ -26,6 +26,7 @@ class ProductsViewController: UIViewController, UICollectionViewDataSource, UICo
     // MARK: Custom Methods
     func initProducts(category: Category) {
         products = DataService.instance.getProducts(forCategoryTitle: category.title)
+        navigationItem.title = category.title
     }
     
     // MARK: UICollectionView Protocols
