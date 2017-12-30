@@ -38,7 +38,7 @@ class CategoriesViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let category = DataService.getCategories(indexPath.row)
+        let category = DataService.instance.getCategories()[indexPath.row]
         performSegue(withIdentifier: "CategoriesVCtoProductsVC", sender: category)
     }
     

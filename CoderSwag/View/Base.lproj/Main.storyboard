@@ -85,7 +85,7 @@
                     <navigationItem key="navigationItem" title="CODER SWAG" id="RLT-Pn-2Vr"/>
                     <connections>
                         <outlet property="categoryTable" destination="eno-xd-QgS" id="1EL-vJ-8iC"/>
-                        <segue destination="vNr-yR-NoF" kind="show" identifier="CategoryVCtoProductVC" id="VTS-BA-ulq"/>
+                        <segue destination="vNr-yR-NoF" kind="show" identifier="CategoriesVCtoProductsVC" id="VTS-BA-ulq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
