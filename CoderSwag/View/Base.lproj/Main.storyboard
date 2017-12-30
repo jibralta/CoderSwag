@@ -186,7 +186,7 @@
                         <viewLayoutGuide key="safeArea" id="742-jB-Eep"/>
                     </view>
                     <connections>
-                        <outlet property="productCollection" destination="Vd3-yq-nHz" id="GEM-cG-L0W"/>
+                        <outlet property="productsCollection" destination="Vd3-yq-nHz" id="GEM-cG-L0W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="blG-pn-la9" userLabel="First Responder" sceneMemberID="firstResponder"/>

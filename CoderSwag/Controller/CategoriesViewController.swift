@@ -48,11 +48,6 @@ class CategoriesViewController: UIViewController, UITableViewDelegate, UITableVi
             productsVC.initProducts(category: sender as! Category)
         }
     }
-    
-    // MARK: Custom Methods
-    
-    // MARK: IBActions
-
 
 }
 

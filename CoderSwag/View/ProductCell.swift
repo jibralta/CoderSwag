@@ -17,8 +17,9 @@ class ProductCell: UICollectionViewCell {
     
     // MARK: Custom Methods
     func updateViews(product: Product) {
-//        categoryImage.image = UIImage(named: category.imageName)
-//        categoryTitle.text = category.title
+        productImage.image = UIImage(named: product.imageName)
+        productTitle.text = product.title
+        productPrice.text = product.price
     }
     
 }
