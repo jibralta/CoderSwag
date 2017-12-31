@@ -18,6 +18,7 @@
 		E0B1662D2011CF4800F0DDE1 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B1662C2011CF4800F0DDE1 /* ProductCell.swift */; };
 		E0B1662F2011D00C00F0DDE1 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B1662E2011D00C00F0DDE1 /* ProductsViewController.swift */; };
 		E0B166312011D40300F0DDE1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B166302011D40300F0DDE1 /* Product.swift */; };
+		E0B166332011EAF800F0DDE1 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B166322011EAF800F0DDE1 /* ItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E0B1662C2011CF4800F0DDE1 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		E0B1662E2011D00C00F0DDE1 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		E0B166302011D40300F0DDE1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E0B166322011EAF800F0DDE1 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E0B166122011680300F0DDE1 /* CategoriesViewController.swift */,
 				E0B1662E2011D00C00F0DDE1 /* ProductsViewController.swift */,
 				E0B166102011680300F0DDE1 /* AppDelegate.swift */,
+				E0B166322011EAF800F0DDE1 /* ItemViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				E0B1662D2011CF4800F0DDE1 /* ProductCell.swift in Sources */,
 				E0B1662820116F9D00F0DDE1 /* Category.swift in Sources */,
 				E0B1662B2011717A00F0DDE1 /* DataService.swift in Sources */,
+				E0B166332011EAF800F0DDE1 /* ItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
