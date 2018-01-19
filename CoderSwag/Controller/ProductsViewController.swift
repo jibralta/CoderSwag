@@ -42,6 +42,26 @@ class ProductsViewController: UIViewController, UICollectionViewDataSource, UICo
         }
         return ProductCell()
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let product = products[indexPath.row]
+        performSegue(withIdentifier: "ProductToItemDetail", sender: product)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let itemDetailVC = segue.destination as? ItemDetailViewController {
+            assert(sender as? Product != nil)
+            itemDetailVC.initItemDetail(product: sender as! Product)
+        }
+    }
 }
+
+
+
+
+
+
+
+
 
 

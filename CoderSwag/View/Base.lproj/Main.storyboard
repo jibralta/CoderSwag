@@ -187,17 +187,17 @@
                     </view>
                     <connections>
                         <outlet property="productsCollection" destination="Vd3-yq-nHz" id="GEM-cG-L0W"/>
-                        <segue destination="fcv-uY-2d5" kind="show" identifier="ProductToItemPage" id="M0T-tm-q7n"/>
+                        <segue destination="fcv-uY-2d5" kind="show" identifier="ProductToItemDetail" id="M0T-tm-q7n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="blG-pn-la9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1266" y="133"/>
         </scene>
-        <!--Item View Controller-->
+        <!--Item Detail View Controller-->
         <scene sceneID="Xwn-LN-EN3">
             <objects>
-                <viewController id="fcv-uY-2d5" customClass="ItemViewController" customModule="CoderSwag" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fcv-uY-2d5" customClass="ItemDetailViewController" customModule="CoderSwag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6mZ-4Y-IGk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
