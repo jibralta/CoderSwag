@@ -19,6 +19,7 @@
 		E0B1662F2011D00C00F0DDE1 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B1662E2011D00C00F0DDE1 /* ProductsViewController.swift */; };
 		E0B166312011D40300F0DDE1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B166302011D40300F0DDE1 /* Product.swift */; };
 		E0B166332011EAF800F0DDE1 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B166322011EAF800F0DDE1 /* ItemDetailViewController.swift */; };
+		E0B166BA2015C06F00F0DDE1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B166B92015C06F00F0DDE1 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E0B1662E2011D00C00F0DDE1 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		E0B166302011D40300F0DDE1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		E0B166322011EAF800F0DDE1 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		E0B166B92015C06F00F0DDE1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		E0B1660F2011680300F0DDE1 /* CoderSwag */ = {
 			isa = PBXGroup;
 			children = (
+				E0B166B92015C06F00F0DDE1 /* Constants.swift */,
 				E0B166292011716D00F0DDE1 /* Services */,
 				E0B1662320116DCC00F0DDE1 /* Model */,
 				E0B1662420116DD600F0DDE1 /* View */,
@@ -191,6 +194,7 @@
 			files = (
 				E0B166132011680300F0DDE1 /* CategoriesViewController.swift in Sources */,
 				E0B166312011D40300F0DDE1 /* Product.swift in Sources */,
+				E0B166BA2015C06F00F0DDE1 /* Constants.swift in Sources */,
 				E0B166112011680300F0DDE1 /* AppDelegate.swift in Sources */,
 				E0B1662F2011D00C00F0DDE1 /* ProductsViewController.swift in Sources */,
 				E0B1662620116E1B00F0DDE1 /* CategoryCell.swift in Sources */,
