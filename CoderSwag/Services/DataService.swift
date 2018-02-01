@@ -9,6 +9,7 @@
 import Foundation
 
 class DataService { // This is a singleton.  Only want one copy of a data service.
+    
     static let instance = DataService() // allows to refer to the same instance always.
     
     // pretending this is from our source. Or just hardcoding to feed into tableviews.
@@ -48,11 +49,11 @@ class DataService { // This is a singleton.  Only want one copy of a data servic
         return categories
     }
     
-    func gethats() -> [Product] {
+    func getHats() -> [Product] {
         return hats
     }
     
-    func gethoodies() -> [Product] {
+    func getHoodies() -> [Product] {
         return hoodies
     }
     
@@ -69,9 +70,9 @@ class DataService { // This is a singleton.  Only want one copy of a data servic
         case "SHIRTS":
             return getShirts()
         case "HOODIES":
-            return gethoodies()
+            return getHoodies()
         case "HATS":
-            return gethats()
+            return getHats()
         case "DIGITAL":
             return getDigitalGoods()
         default:
